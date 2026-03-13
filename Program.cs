@@ -73,7 +73,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+/// 개발테스트를 위해 http 로 진행
+//app.UseHttpsRedirection();
 
 // 순서 중요
 app.UseAuthentication();

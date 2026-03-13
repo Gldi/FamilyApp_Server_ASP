@@ -1,6 +1,10 @@
 ﻿namespace Fm.Api.Entities
 {
-    public enum TxType { Income =1, Expense = 2 }
+    public enum TxType 
+    { 
+        Income =1, 
+        Expense = 2 
+    }
 
     /// <summary>
     /// 가계부 거래 내역 모델
